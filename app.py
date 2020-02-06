@@ -6,10 +6,12 @@ import seaborn as sns
 import streamlit as st
 import NY_airbnb
 import data
+import references
 PAGES ={
     "Data" : data,
 
     "Interact Example": NY_airbnb,
+    "References" : references
 
 }
 def main():
