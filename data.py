@@ -29,7 +29,7 @@ def write():
     data_checkbox(data_pre)
     st.write('## Plot for the dataset')
     st.image("imag/Price less than 90 quantile of total price.png")
-    st.image("imag/Price larger Than 90 quantile of total price.png")
+    st.image("imag/Price larger than 90 quantile of total price.png")
     st.image("imag/Num of Houses in Diff Boroughs.png")
     st.image("imag/Price Distribution for Diff Boroughs.png")
     st.image("imag/Price Distribution for Diff Room Type.png")
