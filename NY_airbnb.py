@@ -20,11 +20,11 @@ def write():
 
 
     st.sidebar.title("Search Filter")
-    selection = st.sidebar.slider("select the price", 0,500,(0,100))
+    selection = st.sidebar.slider("Select the Range of Price", 0,500,(0,100))
     neighbourhood = st.sidebar.selectbox("Select the Boroughs",("Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island") )
 
 
-    room_type = st.sidebar.selectbox("Select types of rooms",("Entire home/apt", "Private room", "Shared room") )
+    room_type = st.sidebar.selectbox("Select Types of Rooms",("Entire home/apt", "Private room", "Shared room") )
 
 
     data_lager_p = data[data['price'] > int(selection[0])]
