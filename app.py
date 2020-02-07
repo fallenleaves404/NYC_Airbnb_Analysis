@@ -8,16 +8,15 @@ import NY_airbnb
 import data
 import references
 PAGES ={
-    "Data" : data,
-
+    "Data Exploration" : data,
     "Interact Example": NY_airbnb,
     "References" : references
 
 }
 def main():
     st.title("Data Exploration on NYC Airbnb data")
-    st.sidebar.title("Selection")
-    selection = st.sidebar.radio("Select", list(PAGES.keys()))
+    st.sidebar.title("Navigation")
+    selection = st.sidebar.radio("Go to", list(PAGES.keys()))
     page = PAGES[selection]
 
     with st.spinner(f"Loading Page"):
