@@ -3,6 +3,7 @@ A Quick NYC Airbnb Analysis and App Demo Basic on Streamlit
 Deployed on heroku and visit it on https://nyc-airbnb-analysis.herokuapp.com/
 
 It contains two-part:
+
 1.Basic data exploration of NYC airbnb dataset. Since this dataset has been explored and investigated by a lot of people, I won't dive deep into it, just some basic EDA plots.
 
 2.An interaction example Airbnb search filter basic on Streamlit. You can select an Airbnb house basic on different price, boroughs and room types
