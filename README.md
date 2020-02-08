@@ -14,6 +14,6 @@ The dataset comes from https://www.kaggle.com/dgomonov/new-york-city-airbnb-open
 
 Streamlit is a powerful tool for data scientists to deploy their web app. You can find more information: 
 https://www.streamlit.io/ 
-https://github.com/fallenleaves404/awesome-streamlit
+
 
 
